@@ -72,8 +72,8 @@ while True:
                 computer+=1
         print("\n")
     
-    print(f"Computer's win : {computer}")
-    print(f"Your's win : {you}")
+    print(f"Computer's Points : {computer}")
+    print(f"Your Points : {you}")
     if computer>you:
         print("You Lose!")
     elif computer<you:
@@ -85,7 +85,7 @@ while True:
     if replay == "y":
         continue
     elif replay == "n":
-        print("THANK YOU FOR TIME! BYE!")
+        print("THANK YOU FOR YOUR TIME! BYEE!")
         exit()
     else:
        exit()
